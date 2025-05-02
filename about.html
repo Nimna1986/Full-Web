@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/ba69da10ff.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>  <!--Close-->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  <!--Menu-->
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!--About Us Content-->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's Largest University</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis voluptas harum molestiae ad laborum ratione 
+                    deserunt amet delectus consequatur, quia at dolorum, ab nisi culpa sapiente? Sunt, modi. Obcaecati dicta consectetur
+                    neque architecto, sequi reiciendis assumenda tempore ullam, ducimus rerum dolore accusantium facere quibusdam nesciunt
+                    facilis itaque nisi debitis magnam, tempora repudiandae possimus? Quaerat.
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+   
+
+   
+   
+
+   
+
+    
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, alias libero, neque cum officia eaque aliquam eveniet eum ad<br> repudiandae
+             reiciendis obcaecati, delectus veritatis earum!</p>
+        <div class="icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Nimna Chamathka </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+
+    </script>
+
+</body>
+</html>
